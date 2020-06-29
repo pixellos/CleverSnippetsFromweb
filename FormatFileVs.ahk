@@ -4,7 +4,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 F6::  ; CTRL+B hotkey
-Send, {Home}
+Send, {End}
 Send, {Home}
 Send, {Enter}
 Send, {Up}
@@ -15,7 +15,7 @@ return  ; This ends the hotkey. The code below this point will not get triggered
 
 ^F6::
 Loop 50 {
-Send, {Home}
+Send, {End}
 Send, {Home}
 Send, {Enter}
 Send, {Up}
