@@ -8,18 +8,20 @@ Send, {End}
 Send, {Home}
 Send, {Enter}
 Send, {Up}
-sleep, 50
+sleep, 25
+Send, {Ctrl down}{k}{d}{Ctrl up}
 Send, {Shift down}{Delete}{Shift up}
 Send, {Down}
 return  ; This ends the hotkey. The code below this point will not get triggered.
 
 ^F6::
-Loop 50 {
+Loop 10 {
 Send, {End}
 Send, {Home}
 Send, {Enter}
 Send, {Up}
-sleep, 50
+sleep, 25
+Send, {Ctrl down}{k}{d}{Ctrl up}
 Send, {Shift down}{Delete}{Shift up}
 Send, {Down}
 }
