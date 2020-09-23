@@ -1,4 +1,4 @@
-$dir = "$HOME\Downloads"; 
+$dir = "C:\users\rogoz\Downloads\*"; 
 
 while($true){
 Start-Sleep -Seconds 2
